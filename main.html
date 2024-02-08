@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Build a Survey Form</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="backgroundblock">
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="description">Thank you for taking the time to help us improve the platform</p>
+    
+    <form id="survey-form">
+     <fieldset>
+       <legend>Name</legend>
+       <label id="name-label"></label>
+       <input class="bars" id="name" type="text" placeholder="Enter your name" required >
+     </fieldset>
+     <fieldset>
+     <legend>Email</legend>
+     <label id="email-label"></label>
+     <input class="bars" id="email" type="email" placeholder="Enter your Email" required>
+     </fieldset>
+     <fieldset>
+     <legend>Age(optional)</legend>
+     <label id="number-label"></label>
+     <input class="bars"  placeholder="Age">
+     </fieldset>
+     <fieldset>
+     <legend>Which option best describes your current role?</legend>
+     <select class="bars" id="dropdown">
+     <option>select current role </option>
+     <option>student</option>
+     <option>Full time job</option>
+     <option>Full tile learner </option>
+     <option>Prefer not to say </option>
+     <option>other</other>
+     </select>
+     </fieldset> 
+     <fieldset>
+     <legend>Would you recommend freeCodeCamp to a friend?</legend>
+     <input  type="radio" name="friend-recomandation" /> Definitely
+     <br>
+     <input  type="radio" name="friend-recomandation" /> Maybe
+     <br>
+     <input  type="radio" name="friend-recomandation" /> Not sure
+     </fieldset>
+     <fieldset>
+     <legend>What would you like to see improved?</legend>  
+     <input type="checkbox" name="Front-end Projects" value="1" > Front-end Projects
+      <br>
+      <input type="checkbox" name="Back-end Projects" value="2" > Back-end Projects
+      <br>
+      <input type="checkbox" name="Data Visualization" value="3" > Data Visualization
+      <br>
+      <input type="checkbox" name="Challenges" value="3" > Challenges
+      <br>
+      <input type="checkbox" name="City Meetups" value="4" > City Meetups
+      <br>
+      <input type="checkbox" name="Forum" value="5" > Forum
+     </fieldset>
+     <fieldset>
+     <legend>Any comments or suggestions?</legend>
+     <textarea class="bars" rows=3 cols=30%></textarea>
+     </fieldset>
+     <fieldset>
+     <input class="bars" id="submit" type="submit" value="Submit" />
+     </fieldset>
+    </form>
+  </div>
+  </body>
+</html>
